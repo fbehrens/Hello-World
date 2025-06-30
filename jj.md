@@ -9,6 +9,11 @@
 
 ```
 jj git init --colocate
+
+jj git fetch
+
+jj bookmark move master --to @-
+jj git push
 ```
 
 ## revset language
